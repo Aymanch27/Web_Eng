@@ -125,6 +125,65 @@ header nav ul li a {
   background-color: #218838;
 }
 
+/* Auth Forms */
+.auth-form {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 40px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form label {
+  font-size: 16px;
+}
+
+.auth-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.auth-form button {
+  background-color: #ff4500;
+  padding: 12px 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #e04300;
+}
+
+.auth-form p {
+  font-size: 14px;
+}
+
+.auth-form a {
+  text-decoration: none;
+  color: #ff4500;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
 /* Footer Section */
 footer {
   background-color: #222;
@@ -148,4 +207,3 @@ footer .social-links a {
 footer .social-links a:hover {
   color: #ff4500;
 }
-
