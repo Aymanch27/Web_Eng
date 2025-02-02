@@ -125,18 +125,23 @@ header nav ul li a {
   background-color: #218838;
 }
 
-/* Auth Forms */
+/* Auth Forms (Login & Signup) */
 .auth-form {
   background-color: #fff;
   padding: 40px 20px;
   text-align: center;
   margin: 40px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .auth-form h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .auth-form form {
@@ -147,10 +152,12 @@ header nav ul li a {
 
 .auth-form label {
   font-size: 16px;
+  text-align: left;
+  color: #555;
 }
 
 .auth-form input {
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -165,6 +172,7 @@ header nav ul li a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .auth-form button:hover {
