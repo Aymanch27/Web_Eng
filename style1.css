@@ -69,6 +69,7 @@ h2 {
 .auth-form input:focus {
   border-color: #ff4500;
   outline: none;
+  box-shadow: 0 0 5px rgba(255, 69, 0, 0.5);
 }
 
 .auth-form button {
@@ -86,6 +87,11 @@ h2 {
 
 .auth-form button:hover {
   background-color: #e04300;
+}
+
+.auth-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 69, 0, 0.5);
 }
 
 .auth-form a {
